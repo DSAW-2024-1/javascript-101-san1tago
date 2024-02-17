@@ -43,11 +43,11 @@ function findLargest(arr) {
 
 // Count Vowels in a String
 function countVowels(str) {
-  var contVoc = 0;
   if(typeof str !== "string"){
     return "Los datos de entrada no son adecuados";
   }
   else{
+    var contVoc = 0;
     for(var i = 0; i<str.length; i++){
       var actCaract = str[i];
       if(actCaract === "a" || actCaract === "e" || actCaract === "i" || actCaract === "o" || actCaract === "u"){
