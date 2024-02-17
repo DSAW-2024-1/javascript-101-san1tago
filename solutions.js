@@ -43,6 +43,7 @@ function findLargest(arr) {
 
 // Count Vowels in a String
 function countVowels(str) {
+  str = str.toLowerCase();
   if(typeof str !== "string"){
     return "Los datos de entrada no son adecuados";
   }
