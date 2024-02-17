@@ -51,7 +51,7 @@ function countVowels(str) {
     let contVoc = 0;
     for(var i = 0; i<str.lenght; i++){
       var actCaract = str[i];
-      if(actCaract === "a" || actCaract === "e" || actCaract === "i" || actCaract === "o" || actCaract === "u" ||){
+      if(actCaract === "a" || actCaract === "e" || actCaract === "i" || actCaract === "o" || actCaract === "u"){
         contVoc ++
       }
     }
