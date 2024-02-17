@@ -48,7 +48,7 @@ function countVowels(str) {
     return "Los datos de entrada no son adecuados";
   }
   else{
-    for(var i = 0; i<str.lenght; i++){
+    for(var i = 0; i<str.length; i++){
       var actCaract = str[i];
       if(actCaract === "a" || actCaract === "e" || actCaract === "i" || actCaract === "o" || actCaract === "u"){
         contVoc ++
