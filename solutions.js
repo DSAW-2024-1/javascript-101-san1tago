@@ -43,7 +43,20 @@ function findLargest(arr) {
 
 // Count Vowels in a String
 function countVowels(str) {
-  // Add your code here
+  if(typeof str !== "string"){
+    return "Los datos de entrada no son adecuados";
+  }
+  else{
+    str = str.toLowerCase();
+    let contVoc = 0;
+    for(var i = 0; i<str.lenght; i++){
+      var actCaract = str[i];
+      if(actCaract === "a" || actCaract === "e" || actCaract === "i" || actCaract === "o" || actCaract === "u" ||){
+        contVoc ++
+      }
+    }
+    return contVoc;
+  }
 }
 
 // Check if a Number is Prime
