@@ -17,7 +17,7 @@ function factorial(n) {
     if(n === 0||n===1){
       return 1;
     }
-    else if(numero<0){
+    else if(n<0){
       console.log("No se puede calcular factorial de negativos")
     }
     else{
